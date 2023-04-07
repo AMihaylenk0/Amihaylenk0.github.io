@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: black;
+  font-family: 'Bungee', cursive;
+  line-height: 1;
+}
+
+.intro {
+    position: absolute;  
+    width: 100%;  
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    pointer-events: none;
+}
+
+h1{  
+  font-size:9vw; 
+  margin: 0;
+}
+</style>
+<body>
+    <div class="intro">
+        <h1>Pepe Lisa.</h1>
+        <p>Click and drag</p>
+      </div>
+      <div id="canvas-holder"></div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.3.4/pixi.min.js"></script>
+<script src="wiggle.js"></script>
+</html>
